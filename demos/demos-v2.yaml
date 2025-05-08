@@ -247,7 +247,7 @@ demos:
   jupyterhub-pyspark-slim:
     description: JupyterHub mit PySpark, ressourcenschonend, ohne HDFS
     documentation: https://github.com/<dein-benutzername>/demos/tree/main/demos/jupyterhub-pyspark-slim
-    stackableStack: jupyterhub-pyspark
+    stackableStack: jupyterhub-keycloak
     labels:
       - jupyterhub
       - pyspark
