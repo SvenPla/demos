@@ -244,3 +244,19 @@ demos:
       cpu: 6400m
       memory: 12622Mi
       pvc: 20Gi
+  jupyterhub-pyspark-slim:
+    description: JupyterHub mit PySpark, ressourcenschonend, ohne HDFS
+    documentation: https://github.com/<dein-benutzername>/demos/tree/main/demos/jupyterhub-pyspark-slim
+    stackableStack: jupyterhub-pyspark
+    labels:
+      - jupyterhub
+      - pyspark
+      - slim
+    manifests: []
+    supportedNamespaces: []
+    resourceRequests:
+      cpu: 1200m
+      memory: 2048Mi
+      pvc: 6Gi
+
+
