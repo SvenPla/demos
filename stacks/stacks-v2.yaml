@@ -669,7 +669,7 @@ stacks:
       - plainYaml: https://raw.githubusercontent.com/stackabletech/demos/main/stacks/jupyterhub-keycloak/keycloak-serviceaccount.yaml
       - plainYaml: https://raw.githubusercontent.com/stackabletech/demos/main/stacks/jupyterhub-keycloak/keycloak-realm-config.yaml
       - plainYaml: https://raw.githubusercontent.com/stackabletech/demos/main/stacks/jupyterhub-keycloak/keycloak.yaml
-      - helmChart: https://raw.githubusercontent.com/stackabletech/demos/main/stacks/jupyterhub-keycloak/jupyterhub.yaml
+      - helmChart: ../jupyterhub-keycloak/jupyterhub.yaml
       - plainYaml: https://raw.githubusercontent.com/stackabletech/demos/main/stacks/jupyterhub-keycloak/serviceaccount.yaml
       - plainYaml: https://raw.githubusercontent.com/stackabletech/demos/main/stacks/jupyterhub-keycloak/s3-connection.yaml
     parameters:
