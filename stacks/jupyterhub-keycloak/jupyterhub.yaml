@@ -118,10 +118,10 @@ options:
         if not keycloak_node_ip:
             raise ValueError("KEYCLOAK_NODE_IP environment variable not set")
 
-        c.GenericOAuthenticator.oauth_callback_url: f"http://{keycloak_node_ip}:31095/hub/oauth_callback"
-        c.GenericOAuthenticator.authorize_url = f"https://{keycloak_url}/realms/demo/protocol/openid-connect/auth"
-        c.GenericOAuthenticator.token_url = f"https://{keycloak_url}/realms/demo/protocol/openid-connect/token"
-        c.GenericOAuthenticator.userdata_url = f"https://{keycloak_url}/realms/demo/protocol/openid-connect/userinfo"
+        c.GenericOAuthenticator.oauth_callback_url: f"http://131.189.156.170:31095/hub/oauth_callback"
+        c.GenericOAuthenticator.authorize_url = f"https://131.189.156.170/realms/demo/protocol/openid-connect/auth"
+        c.GenericOAuthenticator.token_url = f"https://131.189.156.170/realms/demo/protocol/openid-connect/token"
+        c.GenericOAuthenticator.userdata_url = f"https://131.189.156.170/realms/demo/protocol/openid-connect/userinfo"
     service:
       type: NodePort
   proxy:
